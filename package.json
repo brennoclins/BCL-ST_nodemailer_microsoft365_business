@@ -1,0 +1,21 @@
+{
+  "name": "BCL-ST_nodemailer_microsoft365_business",
+  "version": "1.0.0",
+  "description": "Enviar e-mail usando nodemailer e Microsoft 365 Business",
+  "main": "server.js",
+  "repository": "https://github.com/brennoclins/BCL-ST_nodemailer_microsoft365_business.git",
+  "author": "Brenno C. Lins <dev@bcl-st.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
